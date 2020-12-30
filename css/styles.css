@@ -72,7 +72,7 @@ hr {
 }
 
 .contact-me {
-  margin-bottom: 2rem;
+  padding-bottom: 75px;
 }
 
 .bottom-container {
@@ -86,7 +86,16 @@ hr {
 
 .fab, .fas {
   font-size: 40px;
-  margin: auto 3%;
+  display: inline-block;
+  padding: 1rem 3rem;
+}
+
+.fa-atom {
+  padding: 1rem 3.28rem;
+}
+
+.fa-chalkboard-teacher {
+  padding: 1rem 2.7rem;
 }
 
 .skill-row {
@@ -97,6 +106,16 @@ hr {
 .skill-row h3, .skill-row p {
   margin: 0 1rem;
   text-align: left;
+}
+
+.skill-content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.skill-cotent div p {
+  text-align: justify;
 }
 
 .description {
