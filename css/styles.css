@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  margin: 50px auto 0 auto;
+  margin: 100px auto 0 auto;
   width: 10%;
   font-family: 'Gamja Flower', cursive;
   font-size: 3.125rem;
@@ -63,6 +63,10 @@ hr {
   position: relative;
 }
 
+.top h1 {
+  min-width: 20%;
+}
+
 .profile {
   padding: 75px 0;
 }
@@ -109,6 +113,7 @@ hr {
 }
 
 .skill-content {
+  padding: 4rem 0;
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -154,14 +159,18 @@ hr {
 
 #cloud1 {
   position: absolute;
-  top: 50px;
-  right: 200px;
+  top: 10%;
+  right: 10%;
 }
 
 #cloud2 {
   position: absolute;
-  top: 300px;
-  left: 200px;
+  top: 57%;
+  left: 10%;
+}
+
+#mountain {
+  max-width: 90%;
 }
 
 #profilepic {
@@ -171,6 +180,6 @@ hr {
 #subheading {
   font-family: 'Gaegu', cursive;
   font-size: 2.5rem;
-  margin-bottom: 0;
+  /*margin-bottom: 0;*/
   color: #356335;
 }
